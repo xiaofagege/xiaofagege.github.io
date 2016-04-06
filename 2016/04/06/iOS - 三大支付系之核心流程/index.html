@@ -5,15 +5,48 @@
   
   <title>xiaofage&#39;s Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="小发哥（EnlishName:TobyLogan），未知星座普通小青年！爱折腾，爱新技术，更爱游离于错综复杂的编码与逻辑中，无法自拔。">
-<meta property="og:type" content="website">
+  <meta name="description" content="本文附带我在公司遇到的一些特别注意的小问题 请认真阅读
+
+马云的支付宝SDK_iOS 移动支付集成开发包–《支付宝钱包支付接口开发包2.0标准版.pdf》
+
+   
+
+
+我们还需要先生成一个订单，文档中描述时，是将这步也放在客户端来做了，但也可以在服务器端生成这个订单（图中支付宝会在支付成功后通知服务器端，所以在服务器端生成订单的话，你可以掌握所有订单，而且也会更安全）：
+
+1.生成订单（可以在">
+<meta property="og:type" content="article">
 <meta property="og:title" content="xiaofage's Blog">
-<meta property="og:url" content="http://xiaofage.com/index.html">
+<meta property="og:url" content="http://xiaofage.com/2016/04/06/iOS - 三大支付系之核心流程/index.html">
 <meta property="og:site_name" content="xiaofage's Blog">
-<meta property="og:description" content="小发哥（EnlishName:TobyLogan），未知星座普通小青年！爱折腾，爱新技术，更爱游离于错综复杂的编码与逻辑中，无法自拔。">
+<meta property="og:description" content="本文附带我在公司遇到的一些特别注意的小问题 请认真阅读
+
+马云的支付宝SDK_iOS 移动支付集成开发包–《支付宝钱包支付接口开发包2.0标准版.pdf》
+
+   
+
+
+我们还需要先生成一个订单，文档中描述时，是将这步也放在客户端来做了，但也可以在服务器端生成这个订单（图中支付宝会在支付成功后通知服务器端，所以在服务器端生成订单的话，你可以掌握所有订单，而且也会更安全）：
+
+1.生成订单（可以在">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1377850-f5bbe63d5bd92115.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1377850-021e61c2a48c76fa.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1377850-729bd2329897b49f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/1377850-04a944f1ee88eb9d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2016-04-06T10:06:18.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="xiaofage's Blog">
-<meta name="twitter:description" content="小发哥（EnlishName:TobyLogan），未知星座普通小青年！爱折腾，爱新技术，更爱游离于错综复杂的编码与逻辑中，无法自拔。">
+<meta name="twitter:description" content="本文附带我在公司遇到的一些特别注意的小问题 请认真阅读
+
+马云的支付宝SDK_iOS 移动支付集成开发包–《支付宝钱包支付接口开发包2.0标准版.pdf》
+
+   
+
+
+我们还需要先生成一个订单，文档中描述时，是将这步也放在客户端来做了，但也可以在服务器端生成这个订单（图中支付宝会在支付成功后通知服务器端，所以在服务器端生成订单的话，你可以掌握所有订单，而且也会更安全）：
+
+1.生成订单（可以在">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/1377850-f5bbe63d5bd92115.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
   
     <link rel="alternative" href="/atom.xml" title="xiaofage&#39;s Blog" type="application/atom+xml">
   
@@ -27,9 +60,6 @@
   <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   
-    
-    
-  
   
       <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
   
@@ -41,8 +71,8 @@
           rootUrl: '/',
           fancybox: true,
           animate: true,
-          isHome: true,
-          isPost: false,
+          isHome: false,
+          isPost: true,
           isArchive: false,
           isTag: false,
           isCategory: false,
@@ -244,9 +274,7 @@
         </header>                
     </div>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-iOS - 三大支付系之核心流程" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-iOS - 三大支付系之核心流程" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2016/04/06/iOS - 三大支付系之核心流程/" class="article-date">
@@ -308,287 +336,163 @@
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
   
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-iOS - Block三部曲之内部实现" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/04/06/iOS - Block三部曲之内部实现/" class="article-date">
-      <time datetime="2016-04-06T10:02:38.000Z" itemprop="datePublished">2016-04-06</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
     
-      <input type="hidden" class="isFancy" />
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-        <pre><code>谈到Block，我们不能只会用，还要能有条理的说出来，那就需要我们总结了，下面呢就是一个对Block的总结
-</code></pre><h2 id="Block底层的关键字提示：函数指针-回调"><a href="#Block底层的关键字提示：函数指针-回调" class="headerlink" title="Block底层的关键字提示：函数指针  回调"></a>Block底层的关键字提示：函数指针  回调</h2><p>（简要回顾Block前两部再进入第三部）</p>
-<blockquote>
-<p>一 、Block的简单使用：<br>1.三步 -&gt;定义Block变量； block定义； 调用<br>2.typedefine<br>3.ARC和MRC的生命周期  （__Block）</p>
-<p>二 、项目中的使用：<br>1.block实行<br>2.block方法参数（网络请求）<br>3.block 代替代理  (__weak析构)</p>
-<p><em>三、Block内部实现<br>【浅显的说就是   -&gt;创建Block时，内部就是创建一个对应的函数；调用Block，内部调用了之前封装的函数  它的实质是函数指针  void(</em>block)() ，实现的核心就是回调】<br>利用LLVM编译器 -&gt;clang命令   [打开终端 cd 你的文件 然后clang你需要的.m文件]</p>
-</blockquote>
-<ul>
-<li>开始解释正文：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">//举例演示：</span><br><span class="line">    int a = 10;    </span><br><span class="line">     __block int b = 20;     </span><br><span class="line">     void (^block)() = ^()&#123;                 </span><br><span class="line">         printf(&quot;a = %d\n&quot;,a);                  </span><br><span class="line">         printf(&quot;b = %d\n&quot;,b);              </span><br><span class="line">     &#125;;    </span><br><span class="line">     a = 50;    </span><br><span class="line">     b = 30;       </span><br><span class="line">     block();</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">//常用的runtime中终端clang命令  clang -rewrite-objc main.m 结果：</span><br><span class="line">int main(int argc, const char * argv[]) &#123;</span><br><span class="line">        int a = 10;</span><br><span class="line">        //__block修饰，封装到结构体__Block_byref_b_0</span><br><span class="line">        __attribute__((__blocks__(byref))) __Block_byref_b_0 b = &#123;(void*)0,(__Block_byref_b_0 *)&amp;b, 0, sizeof(__Block_byref_b_0), 20&#125;;</span><br><span class="line">        //传入到结构体struct __main_block_impl_0 的__main_block_impl_0(...)&#123;...&#125;中</span><br><span class="line">        void (*block)() = (void(*)())&amp;__main_block_impl_0((void *)__main_block_func_0, &amp;__main_block_desc_0_DATA, a, (__Block_byref_b_0 *)&amp;b, 570425344);</span><br><span class="line">        a = 50;</span><br><span class="line">        //结构体属性值重新指向</span><br><span class="line">        (b.__forwarding-&gt;b) = 30;</span><br><span class="line">        //获取结构体属性FuncPtr。也就是封装后的block方法体。然后传入block实例，执行打印</span><br><span class="line">        ((void (*)(__block_impl *))((__block_impl *)block)-&gt;FuncPtr)((__block_impl *)block);</span><br><span class="line">        return 0;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<p>———–&gt; 分析编译出来的C++代码<br>–&gt;1、<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">__attribute__((__blocks__(byref))) __Block_byref_b_0 b = &#123;(void*)0,(__Block_byref_b_0 *)&amp;b, 0, sizeof(__Block_byref_b_0), 20&#125;;</span><br></pre></td></tr></table></figure></p>
-<p>参数：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(void*)0</span><br><span class="line">        (__Block_byref_b_0 *)&amp;b</span><br><span class="line">        0</span><br><span class="line">        sizeof(__Block_byref_b_0)</span><br><span class="line">        20</span><br></pre></td></tr></table></figure></p>
-<p>把b的值 封装到 <strong>Block_byref_b_0结构体中。【</strong>block修饰的值装在封装的结构体中】<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">struct __Block_byref_b_0 &#123;</span><br><span class="line">        void *__isa; //当前对象指针</span><br><span class="line">        __Block_byref_b_0 *__forwarding; //当前结构体指针，__forwarding 存储自己地址。用__block修饰便执行</span><br><span class="line">        int __flags; //标记</span><br><span class="line">        int __size; // 结构体大小</span><br><span class="line">        int b; // 值</span><br><span class="line">    &#125;;</span><br></pre></td></tr></table></figure></p>
-<p>–&gt;2、传递到结构体中的方法里<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">void (*block)() = (void(*)())&amp;__main_block_impl_0(</span><br><span class="line">    (void *)__main_block_func_0, &amp;__main_block_desc_0_DATA, a, (__Block_byref_b_0 *)&amp;b, 570425344</span><br><span class="line">);</span><br></pre></td></tr></table></figure></p>
-<p>传递：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">(void *)__main_block_func_0   // 存储block方法体【这里就是两条打印】，下文的 *fp</span><br><span class="line">          &amp;__main_block_desc_0_DATA  //  地址，block的描述数据</span><br><span class="line">           a                                         // 值传递   </span><br><span class="line">          (__Block_byref_b_0 *)&amp;b       //传递 b的地址，结构体包装</span><br><span class="line">          570425344</span><br></pre></td></tr></table></figure></p>
-<p>到：block的实例方法<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">struct __main_block_impl_0 &#123;</span><br><span class="line">        struct __block_impl impl;</span><br><span class="line">        struct __main_block_desc_0* Desc;</span><br><span class="line">        int a; //  10</span><br><span class="line">        __Block_byref_b_0 *b; // by ref</span><br><span class="line">         </span><br><span class="line">        //调用这个方法，方法的实现在括号内.上文传递的参数在此赋值</span><br><span class="line">        __main_block_impl_0(void *fp, struct __main_block_desc_0 *desc, int _a, __Block_byref_b_0 *_b, int flags=0) : a(_a), b(_b-&gt;__forwarding) &#123;</span><br><span class="line">            impl.isa = &amp;_NSConcreteStackBlock;</span><br><span class="line">            impl.Flags = flags;</span><br><span class="line">            impl.FuncPtr = fp;  //执行的代码 打印。__main_block_func_0</span><br><span class="line">            Desc = desc;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure></p>
-<p>block内的方法封装到这里<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">static void __main_block_func_0(struct __main_block_impl_0 *__cself) &#123;  </span><br><span class="line">    __Block_byref_b_0 *b = __cself-&gt;b; // bound by ref  </span><br><span class="line">    int a = __cself-&gt;a; // bound by copy</span><br><span class="line">        printf(&quot;a = %d\n&quot;,a);</span><br><span class="line">        printf(&quot;b = %d\n&quot;,(b-&gt;__forwarding-&gt;b));</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">struct __block_impl &#123;        </span><br><span class="line">       void *isa;        </span><br><span class="line">       int Flags;        </span><br><span class="line">       int Reserved;        </span><br><span class="line">       void *FuncPtr;    </span><br><span class="line">     &#125;;</span><br></pre></td></tr></table></figure></p>
-<p>–&gt;3、<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a = 50;</span><br><span class="line">   (b.__forwarding-&gt;b) = 30;</span><br><span class="line">//这里的b 是 __Block_byref_b_0 b </span><br><span class="line">//在结构体中获得属性__forwarding，并给它指向值 30；</span><br></pre></td></tr></table></figure></p>
-<p>//特别提醒：<br><strong>使用__block 就是传地址</strong>    / <strong>不使用就是传值</strong><br>反编译成C++ 后发现，当使用了__block 修饰对象的时候，都会封装成一种类型的结构体。      </p>
-<p>######<a href="http://blog.csdn.net/u014536527/article/details/50378586" target="_blank" rel="external">Block的简单介绍</a></p>
-<h6 id="Block高级讲解"><a href="#Block高级讲解" class="headerlink" title="Block高级讲解"></a><a href="http://blog.devtang.com/blog/2013/07/28/a-look-inside-blocks/" target="_blank" rel="external">Block高级讲解</a></h6>
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-
-      
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-ChromePlug" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/01/19/ChromePlug/" class="article-date">
-      <time datetime="2016-01-19T05:58:41.000Z" itemprop="datePublished">2016-01-19</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/19/ChromePlug/">前端Chrome插件</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <p>　　<strong> Google Chrome </strong>是最好用的几个浏览器之一，自从2011年11月份赶超Firefox之后，已成为当今互联网的主流浏览器。今天，我来分享下自己收集的一系列Chrome插件，希望能够提高大家的工作效率。<br>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Chrome/">Chrome</a>
-    </div>
-
-
-      
-      
-        <p class="article-more-link">
-          <a  href="/2016/01/19/ChromePlug/#more">大航海 >></a>
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2016/04/06/iOS - 三大支付系之核心流程/"></a></p>
+        <p><span>文章作者:</span><a href="/" title="访问 Toby Logan 的个人博客">Toby Logan</a></p>
+        <p><span>发布时间:</span>2016年04月06日 - 18时06分</p>
+        <p><span>最后更新:</span>2016年04月06日 - 18时06分</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2016/04/06/iOS - 三大支付系之核心流程/" title="">http://xiaofage.com/2016/04/06/iOS - 三大支付系之核心流程/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://xiaofage.com/2016/04/06/iOS - 三大支付系之核心流程/　　作者: Toby Logan" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-    <article id="post-AjaxStatus" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/01/19/AjaxStatus/" class="article-date">
-      <time datetime="2016-01-19T05:58:41.000Z" itemprop="datePublished">2016-01-19</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/19/AjaxStatus/">Ajax Status请求状态</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <p>　　<strong> 自用笔记：</strong>本文属于自用笔记，不做详解，仅供参考。在此记录自己已理解并开始遵循的前端代码规范。What How Why<br>
-          
-      
-    </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Ajax/">Ajax</a>
-    </div>
-
-
-      
-      
-        <p class="article-more-link">
-          <a  href="/2016/01/19/AjaxStatus/#more">大航海 >></a>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
         </p>
-      
-      <div class="clearfix"></div>
     </div>
-    
-  </div>
+
+
+
+<nav id="article-nav">
+  
+  
+    <a href="/2016/04/06/iOS - Block三部曲之内部实现/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"></div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
   
 </article>
 
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-6"><a class="toc-link" href="#具体到支付宝使用RSA做签名验证，就是在生产订单时，需要使用私钥生成签名值；在处理返回的支付结果时，需要使用公钥验证返回结果是否被篡改了。"><span class="toc-number">1.</span> <span class="toc-text">具体到支付宝使用RSA做签名验证，就是在生产订单时，需要使用私钥生成签名值；在处理返回的支付结果时，需要使用公钥验证返回结果是否被篡改了。</span></a></li></ol>
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
 
 
 
 
 
+<div class="bdsharebuttonbox">
+	<a href="#" class="fx fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+	<a href="#" class="fx fa-weixin bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+	<a href="#" class="fx fa-qq bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+	<a href="#" class="fx fa-facebook-official bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+	<a href="#" class="fx fa-twitter bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+	<a href="#" class="fx fa-linkedin bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+	<a href="#" class="fx fa-files-o bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 
 
 
-  
-    <article id="post-JSTip" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/01/19/JSTip/" class="article-date">
-      <time datetime="2016-01-19T05:58:41.000Z" itemprop="datePublished">2016-01-19</time>
-</a>
-    </div>
-  
-  <div class="article-inner">
+
     
-      <input type="hidden" class="isFancy" />
+      <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2016/04/06/iOS - 三大支付系之核心流程/" data-title="" data-url="http://xiaofage.com/2016/04/06/iOS - 三大支付系之核心流程/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"tobylogan"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
     
-    
-      <header class="article-header">
+
+
+
+    <div class="scroll" id="post-nav-button">
         
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/01/19/JSTip/">原生JS TitleTip</a>
-    </h1>
-  
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-          
-              <p>　　<strong> 自用笔记：</strong>本文属于自用笔记，不做详解，仅供参考。在此记录自己已理解并开始遵循的前端代码规范。What How Why<br>
-          
-      
+            <a href="/" title="回到主页"><i class="fa fa-home"></i></a>
+        
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+        
+            <a href="/2016/04/06/iOS - Block三部曲之内部实现/" title="下一篇: ">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-    <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/HTML/">HTML</a>
-    </div>
-
-
-      
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li></ul>
-    </div>
-
-      
-        <p class="article-more-link">
-          <a  href="/2016/01/19/JSTip/#more">大航海 >></a>
-        </p>
-      
-      <div class="clearfix"></div>
-    </div>
-    
-  </div>
-  
-</article>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/04/06/iOS - 三大支付系之核心流程/">iOS - 三大支付系之核心流程</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/04/06/iOS - Block三部曲之内部实现/">iOS - Block三部曲之内部实现</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/19/ChromePlug/">前端Chrome插件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/19/AjaxStatus/">Ajax Status请求状态</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/19/JSTip/">原生JS TitleTip</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/15/Hexo-Theme/">Hexo 主题：SPFK</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/15/Native-JS/">原生JavaScript探索</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/13/HTMLbase/">HTML结构零散</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo-plug/">Hexo插件安装</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/26/win7Set/">电脑优化相关</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/25/Hexo/">Hexo的使用介绍</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/25/WebFront/">web前端职业规划</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/24/markdown/">Markdown使用指南</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/Sublimebest/">Sublime Text历练</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/SublimePackage/">Sublime插件</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/GitHub+Hexo/">使用GitHub搭建Hexo博客</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/FrontEndGuide/">前端资源导航</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/11/BusyFront/">Busy前端工作室</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/11/27/HexoBug/">Hexo bug</a></li></ul>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#toc, .switch-btn, .switch-area").toggle();
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+                $(".switch-btn, .switch-area").fadeToggle(300);
+            }
+        })
+    </script>
 
 
 
-
-
-
-
-
-
-  
-  
-    <nav id="page-nav">
-      <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/">Next &raquo;</a>
-    </nav>
-  
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
