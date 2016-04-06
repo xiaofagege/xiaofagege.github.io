@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>HTML结构零散 | xiaofage&#39;s Blog</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="自用笔记：本文属于自用笔记，不做详解，仅供参考。在此记录自己已理解并开始遵循的前端代码规范。What How Why　　最近，使用Hexo遇到了很多问题，在设立进行整理。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="HTML结构零散">
+<meta property="og:url" content="http://xiaofage.com/2016/01/13/HTMLbase/index.html">
+<meta property="og:site_name" content="xiaofage's Blog">
+<meta property="og:description" content="自用笔记：本文属于自用笔记，不做详解，仅供参考。在此记录自己已理解并开始遵循的前端代码规范。What How Why　　最近，使用Hexo遇到了很多问题，在设立进行整理。">
+<meta property="og:updated_time" content="2016-01-23T02:21:32.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="HTML结构零散">
+<meta name="twitter:description" content="自用笔记：本文属于自用笔记，不做详解，仅供参考。在此记录自己已理解并开始遵循的前端代码规范。What How Why　　最近，使用Hexo遇到了很多问题，在设立进行整理。">
+  
+    <link rel="alternative" href="/atom.xml" title="xiaofage&#39;s Blog" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/img/favicon.png">
+  
+  
+      <link rel="stylesheet" href="//cdn.bootcss.com/animate.css/3.5.0/animate.min.css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/font-awesome/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  
+      <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  
+  <!-- 加载特效 -->
+    <script src="/js/pace.js"></script>
+    <link href="/css/pace/pace-theme-flash.css" rel="stylesheet" />
+  <script>
+      var yiliaConfig = {
+          rootUrl: '/',
+          fancybox: true,
+          animate: true,
+          isHome: false,
+          isPost: true,
+          isArchive: false,
+          isTag: false,
+          isCategory: false,
+          open_in_new: false
+      }
+  </script>
+</head>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            
+            <img lazy-src="/img/head.gif" class="js-avatar">
+            
+        </a>
+
+        <hgroup>
+          <h1 class="header-author"><a href="/">Toby Logan</a></h1>
+        </hgroup>
+
+        
+        <p class="header-subtitle">不抱幻想  充满希望</p>
+        
+        
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/Home">博客首页</a></li>
+                        
+                            <li><a href="/works">作品展示</a></li>
+                        
+                            <li><a href="/about">留言打卡</a></li>
+                        
+                            <li><a href="/FrontEndGuide">前端导航</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fl mail" target="_blank" href="https://mail.qq.com/cgi-bin/frame_html?sid=WQeUVpDM1N7aRx5J&r=b81e625de23cae300a5dffd7cb1374bb" title="mail">mail</a>
+                            
+                                <a class="fl github" target="_blank" href="https://github.com/TobyLogan" title="github">github</a>
+                            
+                                <a class="fl weibo" target="_blank" href="http://weibo.com/login.php" title="weibo">weibo</a>
+                            
+                                <a class="fl google" target="_blank" href="https://hexo.io/themes/" title="google">google</a>
+                            
+                                <a class="fl jianshu" target="_blank" href="http://www.jianshu.com/writer#/notebooks/2809914/notes/3075154" title="jianshu">jianshu</a>
+                            
+                                <a class="fl facebook" target="_blank" href="https://www.facebook.com/" title="facebook">facebook</a>
+                            
+                                <a class="fl rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <a href="/tags/Front-end-outline/" style="font-size: 10px;">Front end outline</a> <a href="/tags/FrontPlan/" style="font-size: 10px;">FrontPlan</a> <a href="/tags/HTML/" style="font-size: 10px;">HTML</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/Sublime/" style="font-size: 15px;">Sublime</a> <a href="/tags/window-7/" style="font-size: 10px;">window 7</a>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.coderqi.com/">coderqi</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.charmingqin.cm /">charmingqin</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.beyondvincent.com/">beyondvincent</a>
+                    
+                      <a target="_blank" class="main-nav-link switch-friends-link" href="http://www.reactnative.cn/">reactnative</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">闷骚小伙儿，未知星座低调男青年！爱折腾，爱新科技，更爱游离于错综复杂的编码与逻辑中，无法自拔。</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">Toby Logan</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                
+                    <img lazy-src="/img/head.gif" class="js-avatar">
+                
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">Toby Logan</a></h1>
+            </hgroup>
+            
+            <p class="header-subtitle">不抱幻想  充满希望</p>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/Home">博客首页</a></li>
+                
+                    <li><a href="/works">作品展示</a></li>
+                
+                    <li><a href="/about">留言打卡</a></li>
+                
+                    <li><a href="/FrontEndGuide">前端导航</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                <div class="social">
+                    
+                        <a class="mail" target="_blank" href="https://mail.qq.com/cgi-bin/frame_html?sid=WQeUVpDM1N7aRx5J&r=b81e625de23cae300a5dffd7cb1374bb" title="mail">mail</a>
+                    
+                        <a class="github" target="_blank" href="https://github.com/TobyLogan" title="github">github</a>
+                    
+                        <a class="weibo" target="_blank" href="http://weibo.com/login.php" title="weibo">weibo</a>
+                    
+                        <a class="google" target="_blank" href="https://hexo.io/themes/" title="google">google</a>
+                    
+                        <a class="jianshu" target="_blank" href="http://www.jianshu.com/writer#/notebooks/2809914/notes/3075154" title="jianshu">jianshu</a>
+                    
+                        <a class="facebook" target="_blank" href="https://www.facebook.com/" title="facebook">facebook</a>
+                    
+                        <a class="rss" target="_blank" href="/atom.xml" title="rss">rss</a>
+                    
+                </div>
+            </nav>
+        </header>                
+    </div>
+</nav>
+      <div class="body-wrap"><article id="post-HTMLbase" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2016/01/13/HTMLbase/" class="article-date">
+      <time datetime="2016-01-13T05:58:41.000Z" itemprop="datePublished">2016-01-13</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      HTML结构零散
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+    <div class="article-category tagcloud">
+    <a class="article-category-link" href="/categories/HTML/">HTML</a>
+    </div>
+
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/HTML/">HTML</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <p>　　<strong>自用笔记：</strong>本文属于自用笔记，不做详解，仅供参考。在此记录自己已理解并开始遵循的前端代码规范。What How Why<br>　　最近，使用Hexo遇到了很多问题，在设立进行整理。</p>
+<a id="more"></a>
+<h2 id="DOCTYPE"><a href="#DOCTYPE" class="headerlink" title="!DOCTYPE"></a>!DOCTYPE</h2><h3 id="版权声明"><a href="#版权声明" class="headerlink" title="版权声明"></a>版权声明</h3><blockquote>
+<p>XHTML</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;</span><br><span class="line">&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot; &gt;</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>HTML 5</p>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- HTML 5 --&gt;</span><br><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- HTML 5 --&gt;</span><br><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html lang=&apos;en&apos; xmlns=&apos;http://www.w3.org/1999/xhtml&apos;&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="语言"><a href="#语言" class="headerlink" title="语言"></a>语言</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&lt;html lang=&apos;en&apos; xmlns=&apos;http://www.w3.org/1999/xhtml&apos;&gt;</span><br></pre></td></tr></table></figure>
+<h2 id="HTML"><a href="#HTML" class="headerlink" title="HTML"></a>HTML</h2><h2 id="HEAD"><a href="#HEAD" class="headerlink" title="HEAD"></a>HEAD</h2><head>
+
+<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 标题 --&gt;</span><br><span class="line">&lt;title&gt;HTML Base&lt;/title&gt;</span><br></pre></td></tr></table></figure>
+<h3 id="base默认地址"><a href="#base默认地址" class="headerlink" title="base默认地址"></a>base默认地址</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;base&gt; 标签为页面上的所有链接规定默认地址或默认目标。</span><br><span class="line">使用 &lt;base&gt; 标签可以改变这一点。</span><br><span class="line">浏览器随后将不再使用当前文档的 URL，而使用指定的基本 URL 来解析所有的相对 URL。</span><br><span class="line">这其中包括 &lt;a&gt;、&lt;img&gt;、&lt;link&gt;、&lt;form&gt; 标签中的 URL。</span><br><span class="line">在 HTML 中，&lt;base&gt; 标签没有结束标签；在 XHTML 中，&lt;base&gt; 标签必须被正确地关闭。</span><br><span class="line">但是还是建议要闭合标签，这样不同浏览器兼容不容。</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">该标签将会控制所有链接，围棋添加默认的链接。</span><br><span class="line">默认的链接</span><br><span class="line">&lt;base href=&quot;http://www.w3school.com.cn/i/&quot; /&gt;</span><br><span class="line">默认的链接打开方式</span><br><span class="line">&lt;base target=&quot;_blank&quot; /&gt;</span><br><span class="line"></span><br><span class="line">注意：</span><br><span class="line">通常通常情况下，默认链接会自动添加到链接的前面。但是，也有特例：</span><br><span class="line">&lt;base href=&quot;http://www.w3school.com.cn/i/&quot; /&gt;</span><br><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;css/root.css&quot;/&gt;</span><br><span class="line">http://www.w3school.com.cn/i/css/root.css</span><br><span class="line"></span><br><span class="line">但是，如果添加根目录（绝对路径），链接会自动根据默认链接进行根目录的查询指定。</span><br><span class="line">&lt;base href=&quot;http://www.w3school.com.cn/i/&quot; /&gt;</span><br><span class="line">&lt;link rel=&quot;stylesheet&quot; href=&quot;/css/root.css&quot;/&gt;</span><br><span class="line">http://www.w3school.com.cn/css/root.css</span><br></pre></td></tr></table></figure>
+<h3 id="meta"><a href="#meta" class="headerlink" title="meta"></a>meta</h3><h4 id="编码格式"><a href="#编码格式" class="headerlink" title="编码格式"></a>编码格式</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- 编码格式 --&gt;</span><br><span class="line">&lt;meta charset=&quot;utf-8&quot;&gt;</span><br><span class="line">&lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot; /&gt;</span><br></pre></td></tr></table></figure>
+<h4 id="编码格式-1"><a href="#编码格式-1" class="headerlink" title="编码格式"></a>编码格式</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=7&quot;&gt;  </span><br><span class="line">&lt;!-- 指定网页的兼容性模式设置 --&gt;</span><br><span class="line"></span><br><span class="line">&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=8&quot;&gt;  </span><br><span class="line">&lt;!-- 以上代码告诉IE浏览器，无论是否用DTD声明文档标准，IE8/9都会以IE7引擎来渲染页面。   --&gt;</span><br><span class="line"></span><br><span class="line">&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;  </span><br><span class="line">&lt;!-- 以上代码告诉IE浏览器，IE8/9都会以IE8引擎来渲染页面。   --&gt;</span><br><span class="line"></span><br><span class="line">&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=7,IE=9&quot;&gt;  </span><br><span class="line">&lt;!-- 以上代码告诉IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面。   --&gt;</span><br><span class="line"></span><br><span class="line">&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=7,9&quot;&gt;  </span><br><span class="line">&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=Edge,chrome=1&quot;&gt;</span><br><span class="line">&lt;!-- 以上代码IE=edge告诉IE使用最新的引擎渲染网页，chrome=1则可以激活Chrome Frame. --&gt;</span><br><span class="line"></span><br><span class="line">#### 关键词</span><br></pre></td></tr></table></figure>
+<!-- 关键词 -->
+<p><meta name="keywords" content=""><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 描述</span><br></pre></td></tr></table></figure></p>
+<!-- 描述 -->
+<p><meta name="description" content=""><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 可视区域</span><br></pre></td></tr></table></figure></p>
+<!-- 可视区域 -->
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+
+<p>width - viewport的宽度<br>height - viewport的高度<br>initial-scale - 初始的缩放比例<br>minimum-scale - 允许用户缩放到的最小比例<br>maximum-scale - 允许用户缩放到的最大比例<br>user-scalable - 用户是否可以手动缩放 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#### 禁止了把数字转化为拨号链接</span><br></pre></td></tr></table></figure>
+<!-- 禁止了把数字转化为拨号链接 -->
+<p><meta name="format-detection" content="telephone=no"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#### 关键词</span><br></pre></td></tr></table></figure></p>
+<!-- 删除默认的苹果工具栏和菜单栏 -->
+<p><meta name="apple-mobile-web-app-capable" content="yes"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#### 关键词</span><br></pre></td></tr></table></figure></p>
+<!-- 控制状态栏显示样式 -->
+<p><meta name="apple-mobile-web-app-status-bar-style" content="default"></p>
+<p><meta name="apple-mobile-web-app-status-bar-style" content="black"></p>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<p>默认：default（白色）<br>black（黑色）<br>black-translucent（灰色半透明）<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### iphone的safari浏览器</span><br></pre></td></tr></table></figure></p>
+<!-- iphone的safari浏览器 -->
+<p><meta name="apple-itunes-app" content="app-id=432274380"><br><!-- <meta name="znonce" content="74810a1113ff4cf49d97f2616bdfe158"> --><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">#### 访问时以兼容模式访问</span><br></pre></td></tr></table></figure></p>
+<!-- 访问时以兼容模式访问 -->
+<!-- 默认webkit内核 -->
+<p><meta name="renderer" content="webkit"><br><!-- 默认IE兼容模式 --></p>
+<p><meta name="renderer" content="ie-comp"><br><!-- 默认IE标准模式 --></p>
+<p><meta name="renderer" content="ie-stand"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 添加Meta声明</span><br></pre></td></tr></table></figure></p>
+<!-- 用于添加Meta声明；无对应关系的PC页面无需添加Meta -->
+<p><meta http-equiv="mobile-agent" content="format=[wml|xhtml|html5]; url=url"></p>
+<p><meta http-equiv="mobile-agent" content="format=html5;url=http://www.z.com/"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### 网站所有者</span><br></pre></td></tr></table></figure></p>
+<!-- 验证网站所有者的一种方式 -->
+<p><meta property="wb:webmaster" content="8e9c4b702508b902"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">### 引入link</span><br><span class="line"></span><br><span class="line">#### Icon link</span><br></pre></td></tr></table></figure></p>
+<!-- Icon link -->
+<p><link rel="shortcut icon" href="favicon.ico"><br><!-- 添加到主屏上的图标会使用指定的图片 --></p>
+<p><link rel="apple-touch-icon" href="templets/default/images/ico/apple-touch-icon.png"><br><!-- ipad --></p>
+<p><link rel="apple-touch-icon" sizes="72x72" href="templets/default/images/ico/apple-touch-icon-72.png"><br><!-- iPhone、iTouch --></p>
+<link rel="apple-touch-icon" sizes="114x114" href="templets/default/images/ico/apple-touch-icon-114.png">
+
+<!-- precomposed -->
+<p><link rel="apple-touch-icon-precomposed" href="static/img/ios/zhihu(57px).png"></p>
+<p><link rel="apple-touch-icon-precomposed" sizes="72x72" href="templets/default/images/ico/apple-touch-icon-72.png"></p>
+<p><link rel="apple-touch-icon-precomposed" sizes="114x114" href="templets/default/images/ico/apple-touch-icon-114.png"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### section</span><br></pre></td></tr></table></figure></p>
+<!-- 把搜索功能放到浏览器的快捷搜索工具上 -->
+<p><link rel="search" type="application/opensearchdescription+xml" href="static/search.xml" title="知乎"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">#### section</span><br></pre></td></tr></table></figure></p>
+<p><link rel="stylesheet" href=".css"><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">### 引入JavaScript</span><br></pre></td></tr></table></figure></p>
+<!-- JavaScript -->
+<p><script type="text/javascript"></script><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">### 引入style</span><br></pre></td></tr></table></figure></p>
+<p><style><br></style><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">### hack IE</span><br><span class="line">用于解决IE兼容性问题的特殊方案，只有满足条件，才会执行代码，否则视为注释。</span><br></pre></td></tr></table></figure></p>
+<!-- hack IE -->
+<!--[if lt IE 9]>
+<script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<![endif]-->
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&lt;/head&gt;</span><br><span class="line"></span><br><span class="line">## Body</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&lt;body&gt;</span><br><span class="line"></span><br><span class="line">&gt;audio声音事件</span><br><span class="line">[美团外卖商家中心](http://e.waimai.meituan.com/#/v2/order/pre)</span><br></pre></td></tr></table></figure>
+<p><audio id="main_audio" preload="auto" volume="1.0" loop data-type="waimai"></audio></p>
+<p><source src="meituan://waimai.ogg" type="audio/ogg"></p>
+<p><source src="static/media/waimai.ogg" type="audio/ogg"><br><br><!-- 加入refundloop的判断 --></p>
+<p><audio id="refund-audio" preload="auto" volume="1.0" data-type="one"></audio></p>
+<p><source src="meituan://refund.ogg" type="audio/ogg"></p>
+<p><source src="static/media/refund.ogg" type="audio/ogg"><br><br>```</p>
+<p><br></p>
+<h1 id="CSS"><a href="#CSS" class="headerlink" title="CSS"></a>CSS</h1><p>iframe无法全屏显示，html，设置高度100%。</p>
+<p>CSS a标签，移动端显示方框</p>
+<p>.f-img-light-wrap {<br>    overflow: hidden;<br>    position: relative<br>}</p>
+<p>.f-img-light-wrap:after {<br>    content: ‘’;<br>    height: 100%;<br>    width: 100px;<br>    transform: skewX(-25deg) translate3d(0,0,0);<br>    background: -moz-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 50%,rgba(255,255,255,0) 100%);<br>    background: -webkit-gradient(linear,left top,right top,color-stop(0%,rgba(255,255,255,0)),color-stop(50%,rgba(255,255,255,.3)),color-stop(100%,rgba(255,255,255,0)));<br>    background: -webkit-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 50%,rgba(255,255,255,0) 100%);<br>    background: -o-linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3)50%,rgba(255,255,255,0) 100%);<br>    background: linear-gradient(left,rgba(255,255,255,0) 0,rgba(255,255,255,.3) 50%,rgba(255,255,255,0) 100%);<br>    position: absolute;<br>    left: -160%;<br>    top: 0;<br>    z-index: 9<br>}</p>
+<p>.f-img-light-wrap:hover:after {<br>    transition: left 1s ease-in-out;<br>    left: 160%<br>}</p>
+<pre><code>/*首字母大写*/
+text-transform:capitalize;
+</code></pre><iframe src="http://sandbox.runjs.cn/show_square/587" allowtransparency="true" frameborder="0" scrolling="no" style=""></iframe></head>
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2016/01/13/HTMLbase/">HTML结构零散</a></p>
+        <p><span>文章作者:</span><a href="/" title="访问 Toby Logan 的个人博客">Toby Logan</a></p>
+        <p><span>发布时间:</span>2016年01月13日 - 13时58分</p>
+        <p><span>最后更新:</span>2016年01月23日 - 10时21分</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2016/01/13/HTMLbase/" title="HTML结构零散">http://xiaofage.com/2016/01/13/HTMLbase/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://xiaofage.com/2016/01/13/HTMLbase/　　作者: Toby Logan" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script src="/js/clipboard.min.js"></script>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/" title="中国大陆 (CC BY-NC-SA 3.0 CN)" target = "_blank">"署名-非商用-相同方式共享 3.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+<nav id="article-nav">
+  
+    <a href="/2016/01/15/Hexo-Theme/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption"><</strong>
+      <div class="article-nav-title">
+        
+          Hexo 主题：SPFK
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2015/12/27/Hexo-plug/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hexo插件安装</div>
+      <strong class="article-nav-caption">></strong>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+    <strong class="toc-title">文章目录</strong>
+    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#DOCTYPE"><span class="toc-number">1.</span> <span class="toc-text">!DOCTYPE</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#版权声明"><span class="toc-number">1.1.</span> <span class="toc-text">版权声明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#语言"><span class="toc-number">1.2.</span> <span class="toc-text">语言</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#HTML"><span class="toc-number">2.</span> <span class="toc-text">HTML</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#HEAD"><span class="toc-number">3.</span> <span class="toc-text">HEAD</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#标题"><span class="toc-number">3.1.</span> <span class="toc-text">标题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#base默认地址"><span class="toc-number">3.2.</span> <span class="toc-text">base默认地址</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#meta"><span class="toc-number">3.3.</span> <span class="toc-text">meta</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#编码格式"><span class="toc-number">3.3.1.</span> <span class="toc-text">编码格式</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#编码格式-1"><span class="toc-number">3.3.2.</span> <span class="toc-text">编码格式</span></a></li></ol></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#CSS"><span class="toc-number"></span> <span class="toc-text">CSS</span></a>
+</div>
+<style>
+    .left-col .switch-btn {
+        display: none;
+    }
+    .left-col .switch-area {
+        display: none;
+    }
+</style>
+
+<input type="button" id="tocButton" value="隐藏目录"  title="点击按钮隐藏或者显示文章目录">
+
+<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script>
+    var valueHide = "隐藏目录";
+    var valueShow = "显示目录";
+
+    if ($(".left-col").is(":hidden")) {
+        $("#tocButton").attr("value", valueShow);
+    }
+
+    $("#tocButton").click(function() {
+        if ($("#toc").is(":hidden")) {
+            $("#tocButton").attr("value", valueHide);
+            $("#toc").slideDown(320);
+            $(".switch-btn, .switch-area").fadeOut(300);
+        }
+        else {
+            $("#tocButton").attr("value", valueShow);
+            $("#toc").slideUp(350);
+            $(".switch-btn, .switch-area").fadeIn(500);
+        }
+    })
+
+    if ($(".toc").length < 1) {
+        $("#toc, #tocButton").hide();
+        $(".switch-btn, .switch-area").show();
+    }
+</script>
+
+
+
+
+
+<div class="bdsharebuttonbox">
+	<a href="#" class="fx fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+	<a href="#" class="fx fa-weixin bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+	<a href="#" class="fx fa-qq bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+	<a href="#" class="fx fa-facebook-official bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+	<a href="#" class="fx fa-twitter bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+	<a href="#" class="fx fa-linkedin bds_linkedin" data-cmd="linkedin" title="分享到linkedin"></a>
+	<a href="#" class="fx fa-files-o bds_copy" data-cmd="copy" title="分享到复制网址"></a>
+</div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+
+
+
+
+    
+      <div class="duoshuo" id="comments">
+    <!-- 多说评论框 start -->
+    <div class="ds-thread" data-thread-key="2016/01/13/HTMLbase/" data-title="HTML结构零散" data-url="http://xiaofage.com/2016/01/13/HTMLbase/"></div>
+    <!-- 多说评论框 end -->
+    <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+    <script type="text/javascript">
+    var duoshuoQuery = {short_name:"luums"};
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0] 
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+    </script>
+    <!-- 多说公共JS代码 end -->
+</div>
+
+    
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2016/01/15/Hexo-Theme/" title="上一篇: Hexo 主题：SPFK">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+        
+            <a href="/2015/12/27/Hexo-plug/" title="下一篇: Hexo插件安装">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/01/19/AjaxStatus/">Ajax Status请求状态</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/19/ChromePlug/">前端Chrome插件</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/19/JSTip/">原生JS TitleTip</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/15/Native-JS/">原生JavaScript探索</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/15/Hexo-Theme/">Hexo 主题：SPFK</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/01/13/HTMLbase/">HTML结构零散</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/27/Hexo-plug/">Hexo插件安装</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/26/win7Set/">电脑优化相关</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/25/Hexo/">Hexo的使用介绍</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/25/WebFront/">web前端职业规划</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/24/markdown/">Markdown使用指南</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/Sublimebest/">Sublime Text历练</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/SublimePackage/">Sublime插件</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/GitHub+Hexo/">使用GitHub搭建Hexo博客</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/21/FrontEndGuide/">前端资源导航</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/12/11/BusyFront/">Busy前端工作室</a></li><li class="post-list-item"><a class="post-list-link" href="/2015/11/27/HexoBug/">Hexo bug</a></li></ul>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+    <script>
+        $(".post-list").addClass("toc-article");
+        $(".post-list-item a").attr("target","_blank");
+        $("#post-nav-button > a:nth-child(2)").click(function() {
+            $(".fa-bars, .fa-times").toggle();
+            $(".post-list").toggle(300);
+            if ($(".toc").length > 0) {
+                $("#toc, #tocButton").toggle(200, function() {
+                    if ($(".switch-area").is(":visible")) {
+                        $("#toc, .switch-btn, .switch-area").toggle();
+                        $("#tocButton").attr("value", valueHide);
+                        }
+                    })
+            }
+            else {
+                $(".switch-btn, .switch-area").fadeToggle(300);
+            }
+        })
+    </script>
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                &copy; 2016 Toby Logan
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/luuman/hexo-theme-spfk" target="_blank">spfk</a> by luuman
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style='display:none'>
+                        <span id="site-visit" >本站到访数: 
+                            <span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>, </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style='display:none'>
+                        <span id="page-visit">本页阅读量: 
+                            <span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+
+    </div>
+    <script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var backgroundnum = 24;
+            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+            $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+            $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
+        })
+    </script>
+
+
+
+
+
+<div class="scroll" id="scroll">
+    <a href="#"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    $(document).ready(function() {
+        if ($("#comments").length < 1) {
+            $("#scroll > a:nth-child(2)").hide();
+        };
+    })
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+
+  <script language="javascript">
+    $(function() {
+        $("a[title]").each(function() {
+            var a = $(this);
+            var title = a.attr('title');
+            if (title == undefined || title == "") return;
+            a.data('title', title).removeAttr('title').hover(
+
+            function() {
+                var offset = a.offset();
+                $("<div id=\"anchortitlecontainer\"></div>").appendTo($("body")).html(title).css({
+                    top: offset.top - a.outerHeight() - 15,
+                    left: offset.left + a.outerWidth()/2 + 1
+                }).fadeIn(function() {
+                    var pop = $(this);
+                    setTimeout(function() {
+                        pop.remove();
+                    }, pop.text().length * 800);
+                });
+            }, function() {
+                $("#anchortitlecontainer").remove();
+            });
+        });
+    });
+</script>
+
+  </div>
+</body>
+</html>
